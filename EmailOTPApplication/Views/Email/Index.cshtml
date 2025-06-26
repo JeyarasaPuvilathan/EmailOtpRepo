@@ -1,0 +1,9 @@
+﻿@model EmailOTPApplication.Models.EmailOtp
+
+<h2>Request OTP</h2>
+<form method="post">
+    <label>Email:</label>
+    <input asp-for="Email" required />
+    <button type="submit">Send OTP</button>
+</form>
+<p style="color:red">@TempData["Message"]</p>

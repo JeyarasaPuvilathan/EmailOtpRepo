@@ -1,0 +1,11 @@
+﻿@model EmailOTPApplication.Models.EmailOtp
+
+<h2>Verify OTP</h2>
+<p>Email: @Model.Email</p>
+<form method="post">
+    <input type="hidden" name="Email" value="@Model.Email" />
+    <label>Enter OTP:</label>
+    <input name="OtpCode" required />
+    <button type="submit">Verify</button>
+</form>
+<p style="color:red">@ViewBag.Message</p>
