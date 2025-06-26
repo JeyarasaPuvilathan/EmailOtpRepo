@@ -3,7 +3,7 @@ using EmailOTPApplication.Services;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<IEmailSender, SmtpEmailSender>();
-builder.Services.AddSingleton<IEmailOtpService, EmailOtpService>();
+builder.Services.AddScoped<IEmailOtpService, EmailOtpService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

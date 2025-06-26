@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmailOTPApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3172385292abeede07ed441297a0c9c8a680e9b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmailOTPApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmailOTPApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
